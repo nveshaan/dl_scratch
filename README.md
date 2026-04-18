@@ -1,47 +1,44 @@
 # DL Algorithms
 
-This repo contains a set of DL algorithms implemented from first principles. These notebooks help to understand the inner workings of modern DL libraries such as Pytorch and Tensorflow. Detailed analysis and comparisons are provided along with the code.
+This repo contains a set of DL algorithms implemented from first principles. These notebooks help to understand the inner workings of modern DL libraries such as Pytorch and Keras. Detailed analysis with a hint of mechanistic interpretability is provided along with the code.
 
 ## Algorithms Implemented
+**Core**
+- [ ] Weights Initialization
+- [ ] Optimizers
+- [ ] Normalization
+- [ ] Residual Connections
+
 **Neural Nets**
 - [x] MLP: Multi-Layer Perceptron
 - [ ] CNN: Convolutional Neural Network
 - [ ] RNN: Recurrent Neural Network
 - [ ] GRU: Gated Recurrent Unit
 - [ ] LSTM: Long Short-Term Memory
+- [ ] SSM: State Space Model
 - [ ] GNN: Graph Neural Network
 
-**Representation Learning**
-- [ ] Auto Encoders
-- [ ] VAE: Variational Autoencoder
-- [ ] Contrastive Learning
-
 **Attention**
-- [ ] Attention Mechanism & Positional Embedding
-- [ ] Transformer
+- [ ] Attention Mechanisms
+- [ ] Positional Encodings
+- [ ] Transformers
 - [ ] minGPT
-- [ ] Vision Transformer
 
 **Generative Models**
+- [ ] VAE: Variational AutoEncoder
 - [ ] GAN: Generative Adversial Network
 - [ ] Diffusion
 - [ ] Flow Matching
 
-**Frontiers**
-- [ ] MAMBA
+**Miscellanious**
+*Representation Learning:* Reconstruction vs Similarity
+*Self Supervised Learning*
+*Deep Unsupervised Learning*
 
 ## Setup
-> This project uses `uv` as the package/environment manager. Install it from [here](https://docs.astral.sh/uv/getting-started/installation/).
-
 ```bash
 git clone https://github.com/nveshaan/dl_scratch.git
 cd dl_scratch
-uv sync
-```
-
-To update the cloned repo,
-```bash
-git pull
 uv sync
 ```
 
